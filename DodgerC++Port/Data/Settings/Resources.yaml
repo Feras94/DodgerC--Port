@@ -1,0 +1,10 @@
+Resources: 
+ Count: 7
+ Paths: 
+  - [0, "Data/Textures/Player.png"]
+  - [1, "Data/Textures/PowerUp.png"]
+  - [2, "Data/Textures/EnemyBlades.png"]
+  - [3, "Data/Textures/EnemyDisk.png"]
+  - [4, "Data/Textures/EnemyPlus.png"]
+  - [5, "Data/Textures/EnemySkull.png"]
+  - [6, "Data/Textures/SplashScreen.png"]

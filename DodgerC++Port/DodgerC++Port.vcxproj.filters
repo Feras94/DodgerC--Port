@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{380d93d3-9078-404a-85f9-fc238dbc648b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine">
+      <UniqueIdentifier>{dfd117bf-39b2-453f-b038-89c372803ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Moduls">
+      <UniqueIdentifier>{968eeadc-3b68-475b-8b30-7895f973ec77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\3rdParty">
+      <UniqueIdentifier>{fd365dff-0b7e-4c09-b71b-fdf2a8703cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\preCompiled">
+      <UniqueIdentifier>{1c6ba681-c21e-4a24-9b70-a0f5dd35f74c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media">
+      <UniqueIdentifier>{cb397d1b-91f9-45f9-9011-5e82fe15f736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{d70e297e-56ab-4b3e-8f26-6600514b1740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Screens">
+      <UniqueIdentifier>{6e4ce56a-df57-4d87-98da-66f3687a2d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Screens\Screens Classes">
+      <UniqueIdentifier>{d7191d21-ad55-4311-9938-41b94df369a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\GameObjects">
+      <UniqueIdentifier>{4de0e010-492b-4ad5-b582-ff28a456a144}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source\Engine\Moduls</Filter>
+    </ClCompile>
+    <ClCompile Include="PreCompiled.cpp">
+      <Filter>Source\Engine\preCompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source\Engine\Moduls</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source\Engine\Moduls</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source\Game\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Source\Game\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDefenitions.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenSplash.cpp">
+      <Filter>Source\Game\Screens\Screens Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenGame.cpp">
+      <Filter>Source\Game\Screens\Screens Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AutomatedEnemy.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ChasingObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlledObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="EvadingObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FastDelegateBind.h">
+      <Filter>Source\Engine\3rdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="FastDelegate.h">
+      <Filter>Source\Engine\3rdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source\Engine\Moduls</Filter>
+    </ClInclude>
+    <ClInclude Include="PreCompiled.h">
+      <Filter>Source\Engine\preCompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Source\Engine\Moduls</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Source\Engine\Moduls</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDefenitions.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Source\Game\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Source\Game\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSplash.h">
+      <Filter>Source\Game\Screens\Screens Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenGame.h">
+      <Filter>Source\Game\Screens\Screens Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AutomatedEnemy.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ChasingObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlledObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EvadingObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h" />
+  </ItemGroup>
+</Project>

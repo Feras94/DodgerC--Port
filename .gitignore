@@ -44,6 +44,9 @@ local.properties
 # local history
 .localhistory/
 
+# log files
+DodgerC++Port/Data/Logs
+
 # Build results
 
 [Dd]ebug/

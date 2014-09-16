@@ -1,0 +1,6 @@
+Settings: 
+ screenWidth: 1024
+ screenHeight: 768
+ windowTitle: "Hani"
+ isFullScreen: false
+ FPS: 60
