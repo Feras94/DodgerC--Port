@@ -41,12 +41,16 @@ local.properties
 *.user
 *.sln.docstates
 
+# local history
+.localhistory/
+
 # Build results
 
 [Dd]ebug/
 [Rr]elease/
 x64/
 build/
+Build/
 [Bb]in/
 [Oo]bj/
 
