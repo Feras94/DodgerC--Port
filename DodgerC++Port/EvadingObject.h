@@ -2,7 +2,7 @@
 
 #include "GameObject.h"
 
-class EvadingObject : GameObject
+class EvadingObject : public GameObject
 {
 public:
 

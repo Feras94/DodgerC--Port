@@ -2,7 +2,12 @@
 
 #include "Screen.h"
 
+
+// TODO DELETE
 class ControlledObject;
+class AutomatedObject;
+class ChasingObject;
+class EvadingObject;
 
 class ScreenGame : public Screen
 {
@@ -17,6 +22,10 @@ public:
 	void handleEvents(const sf::Event& event) override;
 
 private:
+	// TODO DELETE
 	ControlledObject* player;
+	EvadingObject* evading;
+	AutomatedObject* automated;
+	ChasingObject* chaser;
 };
 

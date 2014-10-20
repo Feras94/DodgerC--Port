@@ -28,15 +28,15 @@ void EvadingObject::update(sf::Time dt)
 	{
 		// horizontal evade
 		if (playerPos.x < getPosition().x)
-			m_Sprite.move(std::abs(m_Speed.y), 0.0f);
+			m_Sprite.move(std::abs(m_Speed.y) * dt.asSeconds(), 0.0f);
 		else if (playerPos.x > getPosition().x)
-			m_Sprite.move(-std::abs(m_Speed.y), 0.0f);
+			m_Sprite.move(-std::abs(m_Speed.y) * dt.asSeconds(), 0.0f);
 
 		// vertical evade
 		if (playerPos.y < getPosition().y)
-			m_Sprite.move(0.0f, std::abs(m_Speed.x));
+			m_Sprite.move(0.0f, std::abs(m_Speed.x) * dt.asSeconds());
 		else if (playerPos.y > getPosition().x)
-			m_Sprite.move(0.0f, -std::abs(m_Speed.x));
+			m_Sprite.move(0.0f, -std::abs(m_Speed.x) * dt.asSeconds());
 	}
 	else
 	{
